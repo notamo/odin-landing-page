@@ -24,13 +24,14 @@ footer {
 
 header div.htop-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 16px 0;
+    padding: 16px 25%;
 }
 
 .htop-container > a {
     font-size: 24px;
+    font-weight: 900;
     color: #f9faf8;
 }
 
@@ -42,4 +43,47 @@ nav ul {
 nav a {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.htop-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    padding: 96px 25%;
+}
+
+.htop-main h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.htop-main p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 12px;
+}
+
+.htop-main-left {
+    flex: 1;
+}
+
+.htop-main-right {
+    flex: 1;
+    background-color: #6d747d;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 32px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 0;
 }
